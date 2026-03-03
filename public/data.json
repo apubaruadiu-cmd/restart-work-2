@@ -1,0 +1,137 @@
+[
+  {
+    "id": "#1001",
+    "title": "Login Issues - Can't Access Account",
+    "description": "Customer is unable to log in to their account. They have tried resetting their password multiple times but still cannot access the dashboard.",
+    "customer": "John Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-15"
+  },
+  {
+    "id": "#1002",
+    "title": "Payment Failed During Checkout",
+    "description": "Customer reports that their credit card payment fails at checkout despite sufficient funds and multiple attempts.",
+    "customer": "Emily Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-16"
+  },
+  {
+    "id": "#1003",
+    "title": "Bug in Mobile App - Crash on Launch",
+    "description": "The mobile app crashes immediately after opening on iOS 17 devices.",
+    "customer": "Michael Brown",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-01-17"
+  },
+  {
+    "id": "#1004",
+    "title": "Unable to Update Profile Information",
+    "description": "Customer receives an error message when trying to update their phone number and address in account settings.",
+    "customer": "Sarah Davis",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-18"
+  },
+  {
+    "id": "#1005",
+    "title": "Email Notifications Not Received",
+    "description": "Customer is not receiving email notifications for order confirmations or password resets.",
+    "customer": "David Wilson",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-01-19"
+  },
+  {
+    "id": "#1006",
+    "title": "Subscription Cancellation Issue",
+    "description": "Customer attempted to cancel their subscription but was still charged for the next billing cycle.",
+    "customer": "Jessica Martinez",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2024-01-20"
+  },
+  {
+    "id": "#1007",
+    "title": "Two-Factor Authentication Not Working",
+    "description": "Customer is not receiving the SMS verification code required for login.",
+    "customer": "Daniel Anderson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-21"
+  },
+  {
+    "id": "#1008",
+    "title": "Incorrect Billing Amount",
+    "description": "Customer was charged twice for the same order and is requesting a refund.",
+    "customer": "Olivia Thomas",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-01-22"
+  },
+  {
+    "id": "#1009",
+    "title": "Feature Request - Dark Mode",
+    "description": "Customer is requesting a dark mode feature for the web dashboard to improve usability at night.",
+    "customer": "William Taylor",
+    "priority": "Low",
+    "status": "Open",
+    "createdAt": "2024-01-23"
+  },
+  {
+    "id": "#1010",
+    "title": "Slow Page Loading Times",
+    "description": "Customer reports that pages take over 10 seconds to load when navigating between sections.",
+    "customer": "Sophia Moore",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2024-01-24"
+  },
+  {
+    "id": "#1011",
+    "title": "Account Locked After Multiple Attempts",
+    "description": "Customer's account was locked after several failed login attempts and needs assistance unlocking it.",
+    "customer": "James Jackson",
+    "priority": "High",
+    "status": "Resolved",
+    "createdAt": "2024-01-25"
+  },
+  {
+    "id": "#1012",
+    "title": "File Upload Failing",
+    "description": "Customer cannot upload PDF files larger than 5MB despite documentation stating a 20MB limit.",
+    "customer": "Ava White",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2024-01-26"
+  },
+  {
+    "id": "#1013",
+    "title": "Data Sync Issue Between Devices",
+    "description": "Customer reports that updates made on desktop are not syncing to the mobile app.",
+    "customer": "Benjamin Harris",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2024-01-27"
+  },
+  {
+    "id": "#1014",
+    "title": "Error 500 on Reports Page",
+    "description": "Customer encounters a 500 internal server error when trying to generate monthly reports.",
+    "customer": "Mia Clark",
+    "priority": "Critical",
+    "status": "In Progress",
+    "createdAt": "2024-01-28"
+  },
+  {
+    "id": "#1015",
+    "title": "Unable to Redeem Promo Code",
+    "description": "Customer reports that a valid promo code shows as expired during checkout.",
+    "customer": "Lucas Lewis",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2024-01-29"
+  }
+]
