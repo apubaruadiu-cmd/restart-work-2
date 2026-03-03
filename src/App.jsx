@@ -1,11 +1,13 @@
-import './App.css'
+import './App.css';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
 function App() {
 
   return (
     <>
-      <h1>Vite + React</h1>
-      <button className="btn btn-primary">Primary</button>
+      <Header></Header>
+      <Footer></Footer>
     </>
   )
 }
