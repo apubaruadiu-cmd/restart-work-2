@@ -15,6 +15,8 @@ const SingleTicketCard = ({
     ticket;
 
   const handleSelected = (ticket) => {
+    if (selected) return;
+    setSelected(true);
     setProgress(progress + 1)
     setSelectedTickets([...selectedTicket, ticket]);
     toast("Ticket Selected")
@@ -24,7 +26,8 @@ const SingleTicketCard = ({
     <div>
       <div
         onClick={() => handleSelected(ticket)}
-        className="p-4 rounded bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.08)]"
+        className={`p-4 rounded bg-white shadow-[0_4px_16px_0_rgba(0,0,0,0.08)]
+        ${selected ? "opacity-50 cursor-not-allowed" : "cursor-pointer"}`}
       >
         <div className="flex gap-2 justify-between items-center">
           <div className="text-lg font-medium text-[#001931]">{title}</div>

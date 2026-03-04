@@ -20,6 +20,7 @@ function App() {
   const [progress, setProgress] = useState(0);
   const [resolve, setResolve] = useState(0);
   const [selectedTicket, setSelectedTickets] = useState([]);
+  const [resolvedTasks, setResolvedTasks] = useState([]);
 
   return (
     <>
@@ -43,7 +44,7 @@ function App() {
           <Suspense fallback={<span className="loading loading-ring loading-xl"></span>}>
             <TicketsCard progress={progress} setProgress={setProgress} ticketsPromise={ticketsPromise} selectedTicket={selectedTicket} setSelectedTickets={setSelectedTickets}></TicketsCard>
           </Suspense>
-          <TaskList selectedTicket={selectedTicket} setSelectedTickets={setSelectedTickets}></TaskList>
+          <TaskList progress={progress} setProgress={setProgress} resolvedTasks={resolvedTasks} setResolvedTasks={setResolvedTasks} resolve={resolve} setResolve={setResolve} selectedTicket={selectedTicket} setSelectedTickets={setSelectedTickets}></TaskList>
         </div>
       </div>
       <Footer></Footer>
